@@ -41,6 +41,7 @@ The localisation node can be tested in stage simulation (without the need for ro
 
         rosrun stage stageros <catkin_ws>/src/socspioneer/data/meeting.world
         roslaunch socspioneer keyboard_teleop.launch  # ---- run only if you want to move robot using keyboard 
+        rosrun map_server map_server <path_to_your_map_yaml_file>
         rosrun pf_localisation node.py    # ----- requires laser_trace, and completed pf.py methods.
 
 
